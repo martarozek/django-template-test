@@ -5,4 +5,4 @@ To check for missing variables in templates you need to set
 ```python
 'string_if_invalid': "INVALID: %s"
 ```
-in your templates options in settings.
+in your TEMPLATES OPTIONS in settings.
