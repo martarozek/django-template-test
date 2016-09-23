@@ -6,3 +6,7 @@ To check for missing variables in templates you need to set
 'string_if_invalid': "INVALID: %s"
 ```
 in your TEMPLATES OPTIONS in settings.
+
+The test should be placed in the Django project root directory (the main app of the project).
+
+Note that the test is stupid and runs through all urls found in the project, no matter if it's a TemplateView or not.
